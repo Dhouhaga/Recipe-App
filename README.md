@@ -4,4 +4,5 @@ An android app developed as a final project for Mobile Development class, using 
   - Add, modify or delete recipes.
   - Change password.
 
+<img src="https://github.com/Dhouhaga/Recipe-App/assets/105125268/1acaa474-2026-4b2c-97cb-ce8d2f96ea27" height="200" width="100">
 
