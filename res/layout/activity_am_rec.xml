@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="196dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/ing_in"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="91dp"
+            android:text="Description"
+            android:textSize="26sp"></TextView>
+
+
+        <EditText
+            android:id="@+id/desc_in"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="52dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="desc.."
+            android:inputType="textMultiLine"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            app:autoSizeStepGranularity="1sp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="63dp"
+            android:text="Plate name:"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/name_in"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="72px"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="51dp"
+            android:ems="10"
+            android:hint="Enter name.."
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ing_in"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="52dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="ing1, ing2.."
+            android:inputType="textMultiLine"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            app:autoSizeStepGranularity="1sp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="196dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/name_in"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="66dp"
+            android:text="Ingredients:"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/saveR"
+            android:layout_width="138dp"
+            android:layout_below="@+id/desc_in"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="126dp"
+            android:backgroundTint="#D5AD36"
+            android:text="Save"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            app:autoSizeStepGranularity="1sp"/>
+
+        <CheckBox
+            android:id="@+id/sweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc_in"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="47dp"
+            android:layout_toEndOf="@+id/savoury"
+            android:text="Sweet"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/savoury"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc_in"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="48dp"
+            android:text="Savoury"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</ScrollView>
