@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PwChange">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PwChange">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="106dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="520dp"
+            android:onClick="saveNewPassword"
+            android:text="Save"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/NPW1"
+            android:layout_width="293dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="356dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="104dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="520dp"
+            android:onClick="CancelChangePW"
+            android:text="Cancel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/APW"
+            android:layout_width="292dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="164dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="308dp"
+            android:text="New password:"
+            android:textIsSelectable="false"
+            android:textSize="21dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="116dp"
+            android:text="Ancient password:"
+            android:textIsSelectable="false"
+            android:textSize="21dp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/NPW2"
+            android:layout_width="293dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="412dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
